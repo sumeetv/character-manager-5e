@@ -1,0 +1,8 @@
+# Ignore tags
+tags
+
+# Ignore intermediate files
+*.swp
+
+# Ignore npm dependencies
+node_modules

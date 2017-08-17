@@ -1,8 +1,11 @@
-# Ignore tags
+# Tags
 tags
 
-# Ignore intermediate files
+# Intermediate files
 *.swp
 
-# Ignore npm dependencies
+# npm dependencies
 node_modules
+
+# Mac OS X artifacts
+.DS_Store

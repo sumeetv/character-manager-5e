@@ -15,15 +15,14 @@ class App extends Component {
             <div className="App">
                 <div className="App-header">
                     <img src={logo} className="App-logo" alt="logo" />
-                    <h2>Old Man Sumeet's D&D Thing</h2>
+                    <h2>{"Old Man Sumeet's D&D Thing"}</h2>
                 </div>
                 <Tabs id="app-tab-selector" defaultActiveKey="Classes">
                     <Tab eventKey="Characters" title="Characters">
                         <CharacterTab />
                     </Tab>
                     <Tab eventKey="Classes" title="Classes">
-                        <ClassesTab />
-                    </Tab>
+                        <ClassesTab /> </Tab>
                 </Tabs>
             </div>
         );

@@ -17,7 +17,7 @@ class App extends Component {
                     <img src={logo} className="App-logo" alt="logo" />
                     <h2>Old Man Sumeet's D&D Thing</h2>
                 </div>
-                <Tabs id="app-tab-selector">
+                <Tabs id="app-tab-selector" defaultActiveKey="Classes">
                     <Tab eventKey="Characters" title="Characters">
                         <CharacterTab />
                     </Tab>

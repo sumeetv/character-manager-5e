@@ -1,0 +1,13 @@
+.Classes-header {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.Classes-selector {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-grow: 1;
+}

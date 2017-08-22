@@ -22,7 +22,8 @@ class App extends Component {
                         <CharacterTab />
                     </Tab>
                     <Tab eventKey="Classes" title="Classes">
-                        <ClassesTab /> </Tab>
+                        <ClassesTab />
+                    </Tab>
                 </Tabs>
             </div>
         );
